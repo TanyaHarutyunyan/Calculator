@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px
+}
+
+body{
+    background-color: burlywood;
+}
+
+#container{
+    width: 80vw;
+    height: 82vh;
+    background-color: rgb(245, 200, 140);
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 10px;
+}
+
+#calc{
+    width: 23vw;
+    height: 73vh;
+    background-color: rgb(42, 41, 41);
+    margin: auto;
+    border-radius: 20px;
+}
+
+#display{
+    width: 100%;
+    height: 30%;
+    background-color: rgb(240, 147, 81);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#keeper{
+    width: 100%;
+    height: 45%;
+    color:rgb(88, 82, 82);
+    font-size: 32px;
+    text-align: right;
+    line-height: 80px;
+}
+
+#output{
+    width: 100%;
+    height: 55%;
+    font-size: 37px;
+    text-align: right;
+    line-height: 60px
+}
+
+#keyboard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+button{
+    width: 78px;
+    height: 60px;
+    font-size: 27px;
+    font-weight:bolder;
+    border-radius: 35px;
+    border: black solid 1px;
+    text-shadow: rgb(245, 200, 140) 1px 2px;
+    color: rgb(42, 41, 41);
+}
+
+.equal{
+    width: 156.3px;
+    height: 60px;
+}
+
+.clear{
+    width: 156.3px;
+    height: 60px;
+}
+
+.operator{
+    background-color: rgb(240, 147, 81);
+}
+
+.number:hover{
+    background-color: rgb(230, 204, 173);
+}
